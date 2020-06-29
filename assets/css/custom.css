@@ -1,0 +1,19 @@
+span.dropdown-toggle:hover {
+	cursor: pointer;
+}
+div.gallery {
+	-webkit-column-width: 33%;
+	-webkit-column-count: 3;
+	-moz-column-width: 33%;
+	-moz-column-count: 3;
+	column-width: 33%;
+	column-count: 3;
+}
+img.img-fluid {
+	background-color: black;
+	transition: 0.5s ease;
+}
+img.img-fluid:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
